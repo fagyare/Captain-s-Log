@@ -51,7 +51,7 @@ module.exports.create = async (req, res) => {
   }
 
   res.redirect("/capLog");
-};
+}; 
 
 // DELETE /capLog/:name
 module.exports.delete = async(req, res) => {
